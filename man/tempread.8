@@ -1,0 +1,17 @@
+.TH tempread 8
+.SH NAME
+tempread \- read the row temperature data read from the sensor on raspberry
+.SH SYNOPSIS
+.B tempread
+[\fB\-v\fR]
+[\fB\-d\fR \fideviceID\fR]
+.SH DESCRIPTION
+.B tempread
+it reads the row temperature data(*1000) from the temprature sensor connected to raspberry pi
+.SH OPTIONS
+.TP
+.BR \-v \fR
+make the output verbose for debuging
+.TP
+.BR \-d " " \fideviceID\fR
+overwrite the default device ID for reading the temprature 

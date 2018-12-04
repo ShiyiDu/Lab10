@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	/* process the arguments */
 	argc--; argv++;
 	while(argc > 0) {
-		printf("%d %s\n", argc, argv[0]);
+		/*printf("%d %s\n", argc, argv[0]);*/
 		if(!strcmp("-v", argv[0])) {
 			verbose = 1;
 		} else if(!strcmp("-d", argv[0])) {
